@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum learnEnum.frenchFriesSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getChoice1",
+				"outputs": [
+					{
+						"internalType": "enum learnEnum.shirtColor",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice1",
+				"outputs": [
+					{
+						"internalType": "enum learnEnum.shirtColor",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setWhite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enums.sol": "learnEnum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enums.sol": {
+			"keccak256": "0x01ee563ce76c0e9cabd89ed63da561da72d673042568ace466a008b9568ed6a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://433bdc1c32b2f0ecbe4b4714aa44b075ba30c23387492d9463f0b6813ece3ca6",
+				"dweb:/ipfs/QmaeT5hDmuM4KvHgCtXMkEJNpxxiCnFtmqWMC2dPqXzJHZ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_random",
+						"type": "uint256"
+					}
+				],
+				"name": "feedRand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rand",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cryptographic.sol": "Oracle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cryptographic.sol": {
+			"keccak256": "0xebfead9c9ad720d9bce315101c17c40949b164d4765ae93a88b0c723e4e95a75",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b715bce20fc3c16083b8025bd881770998b25b57ff215df66268a0dc4d6cc958",
+				"dweb:/ipfs/QmXcRFnqxWhiQde4KifDQWHhpM3aithQvrsgKj8eCfCd1F"
+			]
+		}
+	},
+	"version": 1
+}

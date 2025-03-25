@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addToEVM",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addToEVM2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addToEVM3",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advanced/assembly.sol": "LearnAssembly"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advanced/assembly.sol": {
+			"keccak256": "0xbe19ce691cc9042a9579ceade8f415f0a0eeda29e678ef5545c053e2aa8cca9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e1ba61dc000b3db866d56d93c9dc945ca8b81661f2c26044194f36083abfdf9",
+				"dweb:/ipfs/QmWLm4DQnnBSWowAnG6vvFtZpgjh9vrWbuosrwJjzJYWxV"
+			]
+		}
+	},
+	"version": 1
+}

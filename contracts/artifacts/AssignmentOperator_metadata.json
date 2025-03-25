@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assign",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "assign1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/assignment.sol": "AssignmentOperator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/assignment.sol": {
+			"keccak256": "0x3df8669221d30013e45bed16173fc11ea0cd22fcbd389e0971f840d3ec805886",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e487cd6b6f1e5905faa4c8219e056e90f93d2fdec54a4b46b8a164d4110bccea",
+				"dweb:/ipfs/QmaCUnFHuQzjvMQFVzjNGTrtDvaPZBzFtTWHZA96aHSKeX"
+			]
+		}
+	},
+	"version": 1
+}

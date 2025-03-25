@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "excersize",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/etherunits.sol": "learnEtherUnits"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/etherunits.sol": {
+			"keccak256": "0x8d6ab9f4f3ce1e52d728d1638892efd329e3480e5146c24759acc20f23c80a10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac471e4f32582bcfc40b402b935e520c924ebada6e1de308b55f823d4c9e2f26",
+				"dweb:/ipfs/QmQ7gFSyJQh8hPsvHs53xMHuEz7LtcdQ5QKFs1mWHb4BKT"
+			]
+		}
+	},
+	"version": 1
+}

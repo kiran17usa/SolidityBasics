@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advanced/uniswap.sol": "UniswapV2Factory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advanced/uniswap.sol": {
+			"keccak256": "0x3c6e20ec94ab7f3f6d658a3ae38842b38b2a675c93f9d8a4fdbcfe77c5a01062",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ef5d3d87051a2efb048ddbc3ff85e72d849029c349db8b2387e375501b51a97",
+				"dweb:/ipfs/QmerYvGNHTiCbddvSnzNyKcTtKkybPe4nqMo9D2DB8WrZA"
+			]
+		}
+	},
+	"version": 1
+}

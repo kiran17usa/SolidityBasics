@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isItAContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/security/vulnerable.sol": "Victim"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/security/vulnerable.sol": {
+			"keccak256": "0xf91c4d48ab1bac4386313eb6abf5c399983e5757773e6164edd3129a3767d1a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0517a215aa3ca7005ea139b679d95b393f03fa513b8b43c75041f83410c3cb0e",
+				"dweb:/ipfs/QmTpNH7phiV25Eyr9p2XNQWayy1qEfnFb47qQFA1nEK2D7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "compare",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "compare1",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/comparision.sol": "ComparisionOperators"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/comparision.sol": {
+			"keccak256": "0xf5959016b8b376b38c5f6b336854cd0766a72f5b0439848eeec15c39ecdd48cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d63b8af66c7a8b0925237a9fcf2c0be2ae7c19f3aeba5ece5243f7afb758dc70",
+				"dweb:/ipfs/QmerTvcw3Pag8JJjCX9JciwowKFeuYgiHmqJEqPKsS14SC"
+			]
+		}
+	},
+	"version": 1
+}

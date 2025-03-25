@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "finalize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/finalexcercise.sol": "FinalExcercise"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/finalexcercise.sol": {
+			"keccak256": "0x11727a6b006eb288ce131a1f1e60ee486b703446fdf428dee2b1d771f90a0920",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e33ce71d984e9f6c38ec3315ecfc36e2a6e98b1dfb46fd5db5cdcdc10c472a78",
+				"dweb:/ipfs/QmcXpHre33rjWXyAc4Q55996idmWVW3wN1GZ8mhF3RTSfX"
+			]
+		}
+	},
+	"version": 1
+}
